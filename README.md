@@ -97,7 +97,7 @@ public interface ITicketPriceProvider
 
 ## Value Objects as Records
 
-Due to [Immutability](#immutability), **records** would be a good candidate to implement Value Objects, but as drawbacks we have to take into account that records do not implement IComparable, and regarding [Encapsulation](#encapsulation), all their internal properties become public, and there are cases where we do not want this.
+Due to [Immutability](#immutability), **records** would be a good candidate to implement Value Objects, but as trade-offs we have to take into account that records do not implement `IComparable`, and regarding [Encapsulation](#encapsulation), all their internal properties become public, and there are cases where we do not want this.
 
 So in this case we decided to implement all our examples using **classes**.
 
