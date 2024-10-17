@@ -32,9 +32,8 @@ internal class price_should
         price.Should().NotBe(Price.From(amount: 1000, currencyCode: "EUR"));
     }
 
-
     [Test]
-    public void return_primitiva_amount_and_currency_values_from_desctuctor()
+    public void return_primitive_amount_and_currency_values_from_desctuctor()
     {
         var amount = 1000;
         var currencyCode = "EUR";
